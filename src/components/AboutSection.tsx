@@ -70,13 +70,18 @@ export default function AboutSection() {
             <div className="aspect-square bg-gradient-to-br from-blue-600 via-purple-800 to-red-600 rounded-2xl shadow-2xl overflow-hidden">
               <div className="absolute inset-0 bg-black bg-opacity-10"></div>
               <div className="absolute inset-0 flex items-center justify-center">
+                
                 <div className="text-center text-white p-8">
                   <Code2 className="w-24 h-24 mx-auto mb-4 opacity-90" />
                   <p className="text-2xl font-bold">My short Introduction</p>
-           
                 </div>
               </div>
             </div>
+              <div className="absolute -bottom-6 -right-6 bg-white rounded-lg shadow-xl p-6 max-w-xs">
+    <p className="text-sm font-semibold text-gray-900 mb-1">
+      4 + Years Experience
+    </p>
+  </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-100 rounded-2xl -z-10"></div>
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-cyan-100 rounded-2xl -z-10"></div>
           </div>
